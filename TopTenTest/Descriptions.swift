@@ -75,7 +75,14 @@ let placeLocations = [
     
     PlaceLocations(anno: MKPointAnnotation(), annoTitle: "Painted Ladies", annoID: 0, coordinanteLat: 37.776577, coordinanteLong: -122.432774),
     PlaceLocations(anno: MKPointAnnotation(), annoTitle: "Lombard Street", annoID: 1, coordinanteLat: 37.802155, coordinanteLong:  -122.418963),
-    PlaceLocations(anno: MKPointAnnotation(), annoTitle: "ChinaTown", annoID: 2, coordinanteLat: 37.794745, coordinanteLong: -122.407805)
+    PlaceLocations(anno: MKPointAnnotation(), annoTitle: "ChinaTown", annoID: 2, coordinanteLat: 37.794745, coordinanteLong: -122.407805),
+    PlaceLocations(anno: MKPointAnnotation(), annoTitle: "North Beach", annoID: 3, coordinanteLat: 37.776577, coordinanteLong: -122.432774),
+    PlaceLocations(anno: MKPointAnnotation(), annoTitle: "Twin Peaks", annoID: 4, coordinanteLat: 37.802155, coordinanteLong:  -122.418963),
+    PlaceLocations(anno: MKPointAnnotation(), annoTitle: "The Mission", annoID: 5, coordinanteLat: 37.794745, coordinanteLong: -122.407805),
+    PlaceLocations(anno: MKPointAnnotation(), annoTitle: "Cable Cars", annoID: 6, coordinanteLat: 37.776577, coordinanteLong: -122.432774),
+    PlaceLocations(anno: MKPointAnnotation(), annoTitle: "Baker Beach", annoID: 7, coordinanteLat: 37.802155, coordinanteLong:  -122.418963),
+    PlaceLocations(anno: MKPointAnnotation(), annoTitle: "Golden Gate Bridge", annoID: 8, coordinanteLat: 37.794745, coordinanteLong: -122.407805),
+    PlaceLocations(anno: MKPointAnnotation(), annoTitle: "Embarcadero", annoID: 9, coordinanteLat: 37.794745, coordinanteLong: -122.407805)
     
     ]
 

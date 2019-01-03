@@ -63,56 +63,49 @@ class DetailVC: UIViewController {
                 mapVC.annoTitle = placeLocations[3].annoTitle
                 mapVC.coordinanteLat = placeLocations[3].coordinateLat
                 mapVC.coordinanteLong = placeLocations[3].coordinateLong
-                mapVC.navigationItem.title = "Lombard Street"
+                mapVC.navigationItem.title = "North Beach"
                 
             } else if annoID == 4 {
                 
                 mapVC.annoTitle = placeLocations[4].annoTitle
                 mapVC.coordinanteLat = placeLocations[4].coordinateLat
                 mapVC.coordinanteLong = placeLocations[4].coordinateLong
-                mapVC.navigationItem.title = "China Town"
+                mapVC.navigationItem.title = "Twin Peaks"
                 
             } else if annoID == 5 {
                 
                 mapVC.annoTitle = placeLocations[5].annoTitle
                 mapVC.coordinanteLat = placeLocations[5].coordinateLat
                 mapVC.coordinanteLong = placeLocations[5].coordinateLong
-                mapVC.navigationItem.title = "Lombard Street"
+                mapVC.navigationItem.title = "The Mission"
                 
             } else if annoID == 6 {
                 
                 mapVC.annoTitle = placeLocations[6].annoTitle
                 mapVC.coordinanteLat = placeLocations[6].coordinateLat
                 mapVC.coordinanteLong = placeLocations[6].coordinateLong
-                mapVC.navigationItem.title = "China Town"
+                mapVC.navigationItem.title = "Cable Cars"
                 
             } else if annoID == 7 {
                 
                 mapVC.annoTitle = placeLocations[7].annoTitle
                 mapVC.coordinanteLat = placeLocations[7].coordinateLat
                 mapVC.coordinanteLong = placeLocations[7].coordinateLong
-                mapVC.navigationItem.title = "Lombard Street"
+                mapVC.navigationItem.title = "Baker Beach"
                 
             } else if annoID == 8 {
                 
                 mapVC.annoTitle = placeLocations[8].annoTitle
                 mapVC.coordinanteLat = placeLocations[8].coordinateLat
                 mapVC.coordinanteLong = placeLocations[8].coordinateLong
-                mapVC.navigationItem.title = "China Town"
+                mapVC.navigationItem.title = "Golden Gate Bridge"
                 
             } else if annoID == 9 {
                 
                 mapVC.annoTitle = placeLocations[9].annoTitle
                 mapVC.coordinanteLat = placeLocations[9].coordinateLat
                 mapVC.coordinanteLong = placeLocations[9].coordinateLong
-                mapVC.navigationItem.title = "Lombard Street"
-                
-            } else if annoID == 10 {
-                
-                mapVC.annoTitle = placeLocations[10].annoTitle
-                mapVC.coordinanteLat = placeLocations[10].coordinateLat
-                mapVC.coordinanteLong = placeLocations[10].coordinateLong
-                mapVC.navigationItem.title = "China Town"
+                mapVC.navigationItem.title = "Embarcadero"
                 
             }
         }

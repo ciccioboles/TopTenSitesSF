@@ -39,36 +39,57 @@
                                 <rect key="frame" x="137" y="334" width="74" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="twin peaks"/>
+                                <connections>
+                                    <action selector="twinPeaksPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fPS-CR-uN7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7nd-C8-Zx7">
                                 <rect key="frame" x="143" y="387" width="79" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="the mission"/>
+                                <connections>
+                                    <action selector="theMissionPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kzd-Ri-dVl"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N9w-ms-Lyk">
                                 <rect key="frame" x="140" y="259" width="84" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="north beach"/>
+                                <connections>
+                                    <action selector="northBeachPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gXs-y8-wku"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aKR-Wf-u9S">
-                                <rect key="frame" x="127" y="447" width="88" height="30"/>
+                                <rect key="frame" x="136" y="447" width="71" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="ocean beach"/>
+                                <state key="normal" title="cable cars"/>
+                                <connections>
+                                    <action selector="cableCarsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="91j-1R-cWk"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hBy-wB-3lu">
-                                <rect key="frame" x="147" y="547" width="71" height="30"/>
+                                <rect key="frame" x="118" y="547" width="130" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="chinatown"/>
+                                <state key="normal" title="golden gate bridge"/>
+                                <connections>
+                                    <action selector="goldenGatePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AGI-u1-MmZ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wh3-Pw-FKd">
-                                <rect key="frame" x="138" y="609" width="86" height="30"/>
+                                <rect key="frame" x="136" y="609" width="91" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="outer sunset"/>
+                                <state key="normal" title="embarcadero"/>
+                                <connections>
+                                    <action selector="embarcaderoPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W6O-5g-CX9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kGM-Cr-13Z">
                                 <rect key="frame" x="129" y="498" width="85" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="baker beach"/>
+                                <connections>
+                                    <action selector="bakerBeachPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oby-En-aYr"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qPY-hu-UEZ">
                                 <rect key="frame" x="148" y="186" width="71" height="30"/>
