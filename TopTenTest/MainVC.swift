@@ -70,6 +70,7 @@ class MainVC: UIViewController {
     
     //test
     // test2
+    //navItem
     
 }
 
